@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-md-9 col-lg-9 pull-left col-sm-3">
+<div class="row col-md-9 col-lg-9 col-sm-9 pull-left ">
 
 
   <div class="container">
@@ -44,7 +44,7 @@
           <div class="sidebar-module">
             <h4>Actions</h4>
             <ol class="list-unstyled">
-              <li><a href="#">Edit</a></li>
+              <li><a href="/companies/{{$company->id}}/edit">Edit</a></li>
               <li><a href="#">Delete</a></li>
               <li><a href="#">Add New Member</a></li>
             </ol>
