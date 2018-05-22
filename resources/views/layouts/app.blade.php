@@ -75,7 +75,10 @@
 
     <main class="py-4">
         <div class="container">
-            <div class="row">
+           
+                @include(partial.errors)
+                @include(partial.success)
+                <div class="row">
                 @yield('content')
             </div>
 

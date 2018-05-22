@@ -104,5 +104,6 @@ class CompaniesController extends Controller
     public function destroy(Company $company)
     {
         //
+        dd($company);
     }
 }
